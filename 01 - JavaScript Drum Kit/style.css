@@ -24,7 +24,10 @@ body,html {
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
-  transition: all .07s ease;
+  transition-property: transform, border-color, box-shadow;
+  transition-duration: 0.07s;
+  transition-timing-function: ease;
+
   width: 10rem;
   text-align: center;
   color: white;
